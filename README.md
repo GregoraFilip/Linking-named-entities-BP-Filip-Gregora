@@ -2,7 +2,7 @@
 by Filip Gregora
 
 ## Description
-This project is part of a bachelor thesis called Linking named entities extracted from biomedical texts with standard vocabularies written by Filip Gregora. The thesis can be accessed at: [https://is.muni.cz/auth/th/s4icj/](https://is.muni.cz/auth/th/s4icj/).
+This project is part of a bachelor thesis called Linking named entities extracted from biomedical texts with standard vocabularies written by Filip Gregora. The thesis can be accessed at: [https://is.muni.cz/auth/th/s4icj/](https://is.muni.cz/th/s4icj/).
 
 ### Abstract
 We can achieve faster and more accurate medical decision-making thanks to machine learning methods in healthcare. Unfortunately, most medical information is stored in unstructured text, which is unsuitable for machine learning methods. As a solution, this work implements a technique that connects named entities obtained from Czech biomedical texts with standard dictionaries. This technique works in three steps. The first step is generating candidate entities from standard dictionaries. The second step is ranking candidate entities and selecting the best-rated candidate entity. The third step is recognizing unlinkable entities and replacing them with NIL values. This work uses a dataset designed for named entity recognition, from which a dataset on which the technique is evaluated is created.
@@ -26,3 +26,4 @@ To run the project you need to:
 - In folder **exploratory_analysis** there are notebooks used for experimenting and playing with implemented technique.
 - In folder **exploring_dataset** there are notebooks used for exploring datasets and generating statistics about them.
 - In folder **preprocessing** there are notebooks for preprocessing databases.
+
